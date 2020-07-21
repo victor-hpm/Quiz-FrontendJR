@@ -1,0 +1,90 @@
+.header {
+    padding: 15px;
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+body {
+    background-image: url(./images/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #FFF;
+    text-align: center;
+    color: #FFF;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    background-color: #1abc9c;
+    color: white;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: block;
+    box-sizing: border-box;
+}
+
+input {
+    width: 55px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    margin-top: 40px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .card {
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    height: 200px;
+    width: 320px;
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+    filter: alpha(opacity=60);
+    border-radius: 5px;
+}
+
+
+/* Background para ancho máximo de la pantalla física */
+
+@media only screen and (max-device-width: 767px) {
+    body {
+        background-image: url(./images/background.jpg);
+        color: #FFF;
+    }
+}
+
+
+/* Background para ancho máximo del navegador */
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-image: url(./images/background.jpg);
+        color: #FFF;
+    }
+}
